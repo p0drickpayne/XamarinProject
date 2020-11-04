@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "E16ICjK2OhMLEZkIiTc6SfR2s5BqAch00jfpLCRo22+pKnnHPhwfzRwvEkMnNvG4UaLVRlj3so1KtlsdaiGgBg==",
+  "success": true,
+  "projectFilePath": "/Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject.iOS/XamarinProject.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/mac/.nuget/packages/xamarin.forms/4.4.0.991640/xamarin.forms.4.4.0.991640.nupkg.sha512"
+  ],
+  "logs": []
+}
