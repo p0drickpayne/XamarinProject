@@ -4,11 +4,26 @@
              xmlns:local="clr-namespace:XamarinProject"
              x:Class="XamarinProject.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height=".5*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        
+        <Image Source="001-computer" BackgroundColor="Olive" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" />
+        
+        <Editor Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" Placeholder="Enter note here" />
+        
+        <Button Grid.Row="2" Grid.Column="0" Text="Save" />
+        <Button Grid.Row="2" Grid.Column="1" Text="Erase" />
+        
+        <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Text="Cool" FontSize="Large" />
+    </Grid>
 
 </ContentPage>
