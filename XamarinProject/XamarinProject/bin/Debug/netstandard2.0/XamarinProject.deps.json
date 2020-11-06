@@ -9,11 +9,20 @@
     ".NETStandard,Version=v2.0/": {
       "XamarinProject/1.0.0": {
         "dependencies": {
+          "JetBrains.Annotations": "2020.2.0-eap",
           "NETStandard.Library": "2.0.3",
           "Xamarin.Forms": "4.4.0.991640"
         },
         "runtime": {
           "XamarinProject.dll": {}
+        }
+      },
+      "JetBrains.Annotations/2020.2.0-eap": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "2020.2.0.0",
+            "fileVersion": "2020.2.0.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -45,6 +54,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "JetBrains.Annotations/2020.2.0-eap": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xyihHe8f5T5KU389nBd4cjtZZLtx7lT7sFl1OhXEMdyUWX0tCpGyI4r/ank5BCBhUKd8JV3dXu/LKNedOEdZXA==",
+      "path": "jetbrains.annotations/2020.2.0-eap",
+      "hashPath": "jetbrains.annotations.2020.2.0-eap.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

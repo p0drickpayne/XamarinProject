@@ -26,6 +26,10 @@
   "frameworks": {
     "netstandard2.0": {
       "dependencies": {
+        "JetBrains.Annotations": {
+          "target": "Package",
+          "version": "[2020.2.0-eap, )"
+        },
         "NETStandard.Library": {
           "suppressParent": "All",
           "target": "Package",

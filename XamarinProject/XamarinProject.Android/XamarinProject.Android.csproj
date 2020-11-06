@@ -46,6 +46,7 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <PackageReference Include="Xamarin.Android.Support.Annotations" Version="28.0.0.3" />
         <PackageReference Include="Xamarin.Forms" Version="4.4.0.991640" />
         <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.3" />
         <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="28.0.0.3" />
@@ -74,9 +75,6 @@
             <Project>{E482B62B-FBC6-448F-9B73-0459D21E8F84}</Project>
             <Name>XamarinProject</Name>
         </ProjectReference>
-    </ItemGroup>
-    <ItemGroup>
-      <AndroidAsset Include="Assets\001-computer.png" />
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

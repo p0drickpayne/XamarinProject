@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jWpw4fAXZ3EIWelBwjbce6YxnCtYm8t4uHSxosLEy7tAgbDWJ+SwXump1exT7uCWRyXANgwz+MmyMHM2KUEi+w==",
+  "dgSpecHash": "YjfWc9njiCYMjlf6ZRjscf9XgSgzxUgcpqPfe4R6cFfxva49z9Y75rgAloRctPtjT4W5WYdarbcULPJCEL7ahg==",
   "success": true,
   "projectFilePath": "/Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject/XamarinProject.csproj",
   "expectedPackageFiles": [
+    "/Users/mac/.nuget/packages/jetbrains.annotations/2020.2.0-eap/jetbrains.annotations.2020.2.0-eap.nupkg.sha512",
     "/Users/mac/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/mac/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/mac/.nuget/packages/xamarin.forms/4.4.0.991640/xamarin.forms.4.4.0.991640.nupkg.sha512"

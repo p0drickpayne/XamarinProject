@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "JetBrains.Annotations/2020.2.0-eap": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {}
+        }
+      },
       "Xamarin.Forms/4.4.0.991640": {
         "type": "package",
         "compile": {
@@ -129,6 +138,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "JetBrains.Annotations": "2020.2.0-eap",
           "Xamarin.Forms": "4.4.0.991640"
         },
         "compile": {
@@ -140,6 +150,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "JetBrains.Annotations/2020.2.0-eap": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {}
+        }
+      },
       "Xamarin.Forms/4.4.0.991640": {
         "type": "package",
         "compile": {
@@ -267,6 +286,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "JetBrains.Annotations": "2020.2.0-eap",
           "Xamarin.Forms": "4.4.0.991640"
         },
         "compile": {
@@ -278,6 +298,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "JetBrains.Annotations/2020.2.0-eap": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {}
+        }
+      },
       "Xamarin.Forms/4.4.0.991640": {
         "type": "package",
         "compile": {
@@ -405,6 +434,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "JetBrains.Annotations": "2020.2.0-eap",
           "Xamarin.Forms": "4.4.0.991640"
         },
         "compile": {
@@ -416,6 +446,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "JetBrains.Annotations/2020.2.0-eap": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {}
+        }
+      },
       "Xamarin.Forms/4.4.0.991640": {
         "type": "package",
         "compile": {
@@ -543,6 +582,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "JetBrains.Annotations": "2020.2.0-eap",
           "Xamarin.Forms": "4.4.0.991640"
         },
         "compile": {
@@ -555,6 +595,28 @@
     }
   },
   "libraries": {
+    "JetBrains.Annotations/2020.2.0-eap": {
+      "sha512": "xyihHe8f5T5KU389nBd4cjtZZLtx7lT7sFl1OhXEMdyUWX0tCpGyI4r/ank5BCBhUKd8JV3dXu/LKNedOEdZXA==",
+      "type": "package",
+      "path": "jetbrains.annotations/2020.2.0-eap",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "jetbrains.annotations.2020.2.0-eap.nupkg.sha512",
+        "jetbrains.annotations.nuspec",
+        "lib/net20/JetBrains.Annotations.dll",
+        "lib/net20/JetBrains.Annotations.xml",
+        "lib/netstandard1.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard1.0/JetBrains.Annotations.dll",
+        "lib/netstandard1.0/JetBrains.Annotations.xml",
+        "lib/netstandard2.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard2.0/JetBrains.Annotations.dll",
+        "lib/netstandard2.0/JetBrains.Annotations.xml",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.dll",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.xml"
+      ]
+    },
     "Xamarin.Forms/4.4.0.991640": {
       "sha512": "668BMe9e5uvQW+caDebKn3nZr1Msxc4YMpDhD/dN061h+bHYEoWu1c/gdmQnwhGpeHMP4TClPxCKRP41FFsGCQ==",
       "type": "package",

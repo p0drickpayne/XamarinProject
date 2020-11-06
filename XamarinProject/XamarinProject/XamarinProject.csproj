@@ -10,6 +10,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Xamarin.Forms" Version="4.4.0.991640"/>
+        <PackageReference Include="JetBrains.Annotations" Version="2020.2.0-eap" />
+        <PackageReference Include="Xamarin.Forms" Version="4.4.0.991640" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="images\computer.png" />
+      <EmbeddedResource Include="images\computer.png" />
     </ItemGroup>
 </Project>

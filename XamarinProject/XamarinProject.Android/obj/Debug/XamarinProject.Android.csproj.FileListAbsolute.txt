@@ -34,6 +34,7 @@
 /Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject.Android/obj/Debug/android/assets/FormsViewGroup.dll
 /Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject.Android/obj/Debug/android/assets/FormsViewGroup.pdb
 /Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject.Android/obj/Debug/android/assets/Java.Interop.dll
+/Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject.Android/obj/Debug/android/assets/JetBrains.Annotations.dll
 /Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject.Android/obj/Debug/android/assets/Mono.Android.dll
 /Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject.Android/obj/Debug/android/assets/Mono.Android.pdb
 /Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject.Android/obj/Debug/android/assets/Mono.Security.dll
