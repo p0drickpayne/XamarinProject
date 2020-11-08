@@ -3,10 +3,10 @@
 /Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject/bin/Debug/netstandard2.0/XamarinProject.pdb
 /Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject/obj/Debug/netstandard2.0/XamarinProject.csprojAssemblyReference.cache
 /Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject/obj/Debug/netstandard2.0/App.xaml.g.cs
-/Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
 /Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject/obj/Debug/netstandard2.0/XamarinProject.AssemblyInfoInputs.cache
 /Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject/obj/Debug/netstandard2.0/XamarinProject.AssemblyInfo.cs
 /Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject/obj/Debug/netstandard2.0/XamarinProject.csproj.CoreCompileInputs.cache
 /Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject/obj/Debug/netstandard2.0/XamarinProject.dll
 /Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject/obj/Debug/netstandard2.0/XamarinProject.pdb
+/Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject/obj/Debug/netstandard2.0/views/MainPage.xaml.g.cs

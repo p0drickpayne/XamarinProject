@@ -24,3 +24,10 @@
 /Users/mac/.nuget/packages/xamarin.forms/4.4.0.991640/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll
 /Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject/bin/Debug/netstandard2.0/XamarinProject.dll
 /Users/mac/.nuget/packages/xamarin.forms/4.4.0.991640/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll
+/Users/mac/.nuget/packages/firebasedatabase.net/4.0.4/lib/netstandard2.0/Firebase.dll
+/Users/mac/.nuget/packages/newtonsoft.json/11.0.2/lib/netstandard2.0/Newtonsoft.Json.dll
+/Users/mac/.nuget/packages/litedb/4.1.4/lib/netstandard2.0/LiteDB.dll
+/Users/mac/.nuget/packages/system.reactive/4.0.0/lib/netstandard2.0/System.Reactive.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/14.0.0.0/lib/mono/Xamarin.iOS/Facades/System.Runtime.InteropServices.WindowsRuntime.dll
+/Users/mac/.nuget/packages/xamarin.essentials/1.6.0-pre2/lib/xamarinios10/Xamarin.Essentials.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/14.0.0.0/lib/mono/Xamarin.iOS/OpenTK-1.0.dll

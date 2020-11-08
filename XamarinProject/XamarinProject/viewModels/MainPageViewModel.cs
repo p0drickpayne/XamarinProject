@@ -1,6 +1,7 @@
 using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace XamarinProject
@@ -23,20 +24,32 @@ namespace XamarinProject
                 
                 TheNote = string.Empty;
             });
+            
+            VibrateOn = new Command(() =>
+            {
+                if (_sliderTime != 0)
+                {
+                    Vibration.Vibrate(TimeSpan.FromMilliseconds(_sliderTime));
+                }
+            });
+            VibrateOff = new Command(() =>
+            {
+                Vibration.Cancel();
+            });
         }
         
         public ObservableCollection<string> AllNotes { get; set; }
         
         public event PropertyChangedEventHandler PropertyChanged;
         
-        string theNote;
+        string _theNote;
 
         public string TheNote
         {
-            get => theNote;
+            get => _theNote;
             set
             {
-                theNote = value;
+                _theNote = value;
                 
                 var args = new PropertyChangedEventArgs(nameof(TheNote));
                 
@@ -44,8 +57,27 @@ namespace XamarinProject
             }
         }
 
+        int _sliderTime;
+
+        public int SliderTime
+        {
+            get => _sliderTime;
+            set
+            {
+                _sliderTime = value;
+                
+                var args = new PropertyChangedEventArgs(nameof(SliderTime));
+                
+                PropertyChanged?.Invoke(this, args);
+            }
+        }
+
         public Command SaveCommand { get; }
         public Command EraseCommand { get; }
+        
+        public Command VibrateOn { get; }
+        
+        public Command VibrateOff { get; }
 
         // public string TheNote
         // {

@@ -1,10 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "bLnZHXe/mBRO8mUDifiAKdCuLqUKWEYsZHu4a97JfvI79FgHstBNAjMdg4A/r+rwZF4JTD6JSvv8AahrtES8cA==",
+  "dgSpecHash": "AjZrVg6zP8/B1X7K2Pc5IbW4ealy6l2p5Q62+96H37hGkqY62SKujdMNOs0vK7/4JcilBlQWXhbi9wIG6K/VRg==",
   "success": true,
   "projectFilePath": "/Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject.iOS/XamarinProject.iOS.csproj",
   "expectedPackageFiles": [
+    "/Users/mac/.nuget/packages/firebasedatabase.net/4.0.4/firebasedatabase.net.4.0.4.nupkg.sha512",
     "/Users/mac/.nuget/packages/jetbrains.annotations/2020.2.0-eap/jetbrains.annotations.2020.2.0-eap.nupkg.sha512",
+    "/Users/mac/.nuget/packages/litedb/4.1.4/litedb.4.1.4.nupkg.sha512",
+    "/Users/mac/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
+    "/Users/mac/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/mac/.nuget/packages/system.reactive/4.0.0/system.reactive.4.0.0.nupkg.sha512",
+    "/Users/mac/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
+    "/Users/mac/.nuget/packages/system.reflection.typeextensions/4.3.0/system.reflection.typeextensions.4.3.0.nupkg.sha512",
+    "/Users/mac/.nuget/packages/system.runtime.interopservices.windowsruntime/4.3.0/system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "/Users/mac/.nuget/packages/xamarin.essentials/1.6.0-pre2/xamarin.essentials.1.6.0-pre2.nupkg.sha512",
     "/Users/mac/.nuget/packages/xamarin.forms/4.4.0.991640/xamarin.forms.4.4.0.991640.nupkg.sha512"
   ],
   "logs": []

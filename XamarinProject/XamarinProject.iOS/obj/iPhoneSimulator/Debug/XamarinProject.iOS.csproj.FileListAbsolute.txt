@@ -56,3 +56,9 @@
 /Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject.iOS/obj/iPhoneSimulator/Debug/XamarinProject.iOS.csproj.CopyComplete
 /Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject.iOS/obj/iPhoneSimulator/Debug/XamarinProject.iOS.exe
 /Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject.iOS/obj/iPhoneSimulator/Debug/XamarinProject.iOS.pdb
+/Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject.iOS/bin/iPhoneSimulator/Debug/Firebase.dll
+/Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject.iOS/bin/iPhoneSimulator/Debug/LiteDB.dll
+/Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject.iOS/bin/iPhoneSimulator/Debug/System.Reactive.dll
+/Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/mac/Documents/csharp/XamarinProject/XamarinProject/XamarinProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb

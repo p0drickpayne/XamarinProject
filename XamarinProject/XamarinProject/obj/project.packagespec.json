@@ -26,6 +26,10 @@
   "frameworks": {
     "netstandard2.0": {
       "dependencies": {
+        "FirebaseDatabase.net": {
+          "target": "Package",
+          "version": "[4.0.4, )"
+        },
         "JetBrains.Annotations": {
           "target": "Package",
           "version": "[2020.2.0-eap, )"
@@ -35,6 +39,10 @@
           "target": "Package",
           "version": "[2.0.3, )",
           "autoReferenced": true
+        },
+        "Xamarin.Essentials": {
+          "target": "Package",
+          "version": "[1.6.0-pre2, )"
         },
         "Xamarin.Forms": {
           "target": "Package",
