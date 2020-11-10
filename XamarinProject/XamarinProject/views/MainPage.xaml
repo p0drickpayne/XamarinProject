@@ -31,9 +31,10 @@
         
         <Button Grid.Row="2" Grid.Column="0" Margin="10,0" Command="{Binding SaveCommand}" Text="Save" BackgroundColor="Fuchsia" TextColor="White" />
         <Button Grid.Row="2" Grid.Column="1" Margin="10,0" Command="{Binding EraseCommand}" Text="Erase" BackgroundColor="Indigo" TextColor="White" />
-        <Slider Grid.Row="2" Grid.Column="2" BackgroundColor="Indigo" Margin="5, 0" Minimum="0" Maximum="5000" Value="{Binding SliderTime}" ></Slider>
-        <Button Grid.Row="3" Grid.Column="1" Margin="10,0" Text="Vibrate" BackgroundColor="Indigo" TextColor="White" Command="{Binding VibrateOn}"></Button>
-        <Button Grid.Row="3" Grid.Column="2" Margin="10,0" Text="Stop" BackgroundColor="Fuchsia" TextColor="White" Command="{Binding VibrateOff}"></Button>
+        <Slider Grid.Row="2" Grid.Column="2" BackgroundColor="Fuchsia" Margin="5, 0" Minimum="0" Maximum="5000" Value="{Binding SliderTime}" ></Slider>
+        <Button Grid.Row="3" Grid.Column="0" Margin="10,0" Text="Get all notes" BackgroundColor="Indigo" TextColor="White" Command="{Binding GetAll}"></Button>
+        <Button Grid.Row="3" Grid.Column="1" Margin="10,0" Text="Vibrate" BackgroundColor="Fuchsia" TextColor="White" Command="{Binding VibrateOn}"></Button>
+        <Button Grid.Row="3" Grid.Column="2" Margin="10,0" Text="Stop" BackgroundColor="Indigo" TextColor="White" Command="{Binding VibrateOff}"></Button>
         <!-- <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Text="{Binding TheNote}" FontSize="Large" /> -->
         
         <CollectionView ItemsSource="{Binding AllNotes}" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="3">
@@ -41,7 +42,7 @@
                 <DataTemplate>
                     <StackLayout>
                         <Frame>
-                            <Label Text="{Binding }"></Label>
+                            <Label Text="{Binding  }"></Label>
                         </Frame>
                     </StackLayout>
                 </DataTemplate>

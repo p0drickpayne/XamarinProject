@@ -19,7 +19,8 @@ namespace XamarinProject
         {  
   
             base.OnAppearing();  
-            var allNotes = await firebaseHelper.GetAllNotes();
+            await firebaseHelper.GetAllNotes();
+            
         }
     }
 }

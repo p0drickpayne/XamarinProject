@@ -18,7 +18,7 @@ namespace XamarinProject.helpers
                 .Child("Notes")  
                 .OnceAsync<Note>()).Select(item => new Note  
             {  
-                TheNote = item.Object.TheNote,  
+                TheNote = item.Object.TheNote 
                  
             }).ToList();  
         }
